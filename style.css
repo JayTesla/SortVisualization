@@ -27,3 +27,8 @@ select
 {
    min-width: 300px;
 }
+
+#bt1,#bt2
+{
+   margin:10px;
+}
