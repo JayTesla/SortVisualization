@@ -1,0 +1,59 @@
+<html>
+    <title>SortVis</title>
+    <head>  
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body> 
+        
+        <div class="container" id ="mycontainer">
+            <div class="row">
+                <div class="col-6">
+                    <div class="row">
+                        <select name="algo" id="algoid">
+                            <option value="b">Bubble Sort</option>
+                            <option value="s">Selection Sort</option>
+                            <option value="q">Quick Sort</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                            Sample Text
+                    </div>
+                </div>    
+                <div class="col-6">
+                    <div class="row">
+                        <h1>SORTING VISUALIZER</h1>
+                    </div>
+                    <div class="row" id="mycanvas">
+                    </div>
+                    <div class="row" >
+                        <span id="bt1" style="float: left;"></span>
+                        <span id ="bt2" style="float: right;""></span>
+                    </div>
+                    <div class="row">
+                        <span id="sld_spd"></span>
+                        <span id="sld_val"></span>
+                    </div>
+                </div>    
+            </div>
+
+        </div>
+        
+
+
+        <div class="container">
+            
+        </div>
+        
+        
+            <!-- <script src="sort.js"></script> -->    
+            <!-- <script src="bubble.js"></script>   -->
+            <script src="sort.js"></script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+    </body>
+    
+</html>
